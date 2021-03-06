@@ -23,6 +23,9 @@ while True:
         time.sleep(1)
 
     except Exception as e:
-        print("Something went wrong!\n{0}".format(e))    
+        print("Something went wrong!\n{0}".format(e))
+        
+    except KeyboardInterrupt:
+        print("Spam stopped")
 
 
